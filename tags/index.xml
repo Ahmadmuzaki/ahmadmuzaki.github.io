@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Aang Morningstar</title>
+    <link>https://ahmadmuzaki.github.io/tags/</link>
+    <description>Recent content in Tags on Aang Morningstar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Oct 2020 17:10:39 +0700</lastBuildDate><atom:link href="https://ahmadmuzaki.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>css</title>
+      <link>https://ahmadmuzaki.github.io/tags/css/</link>
+      <pubDate>Mon, 19 Oct 2020 17:10:39 +0700</pubDate>
+      
+      <guid>https://ahmadmuzaki.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>https://ahmadmuzaki.github.io/tags/js/</link>
+      <pubDate>Mon, 19 Oct 2020 17:10:39 +0700</pubDate>
+      
+      <guid>https://ahmadmuzaki.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>html</title>
+      <link>https://ahmadmuzaki.github.io/tags/html/</link>
+      <pubDate>Sun, 18 Oct 2020 16:46:41 +0700</pubDate>
+      
+      <guid>https://ahmadmuzaki.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://ahmadmuzaki.github.io/tags/php/</link>
+      <pubDate>Sun, 18 Oct 2020 16:46:41 +0700</pubDate>
+      
+      <guid>https://ahmadmuzaki.github.io/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://ahmadmuzaki.github.io/tags/python/</link>
+      <pubDate>Sun, 18 Oct 2020 16:46:41 +0700</pubDate>
+      
+      <guid>https://ahmadmuzaki.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

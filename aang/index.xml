@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aang Banget on Aang Morningstar</title>
+    <link>https://ahmadmuzaki.github.io/aang/</link>
+    <description>Recent content in Aang Banget on Aang Morningstar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Oct 2020 17:10:39 +0700</lastBuildDate><atom:link href="https://ahmadmuzaki.github.io/aang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salman Alfaris</title>
+      <link>https://ahmadmuzaki.github.io/aang/salman-alfaris/</link>
+      <pubDate>Mon, 19 Oct 2020 17:10:39 +0700</pubDate>
+      
+      <guid>https://ahmadmuzaki.github.io/aang/salman-alfaris/</guid>
+      <description>Ini konten Salman Alfaris</description>
+    </item>
+    
+    <item>
+      <title>Ahmad Muzaki</title>
+      <link>https://ahmadmuzaki.github.io/aang/ahmad-muzaki/</link>
+      <pubDate>Sun, 18 Oct 2020 16:46:41 +0700</pubDate>
+      
+      <guid>https://ahmadmuzaki.github.io/aang/ahmad-muzaki/</guid>
+      <description>Halaman Ahmad Muzaki Salman Alfaris</description>
+    </item>
+    
+  </channel>
+</rss>
