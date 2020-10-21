@@ -13,6 +13,7 @@
   <meta name="description" content="Belajar Hugo" />
   
 
+  
   <style>
     .column {
       width: 33.33%;
@@ -27,17 +28,32 @@
       display: table;
       clear: both;
     }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     header {
       position: fixed;
-      top: 0%;
+      top: 0;
       left: 0;
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       transition: 0.6s;
-      padding: 40px 100px;
+      padding: 5px 50px;
       z-index: 1000;
+    }
+    header.sticky {
+      padding: 5px 50px;
+      background: #0E003B;
+    }
+    header.sticky ul li a {
+      color: white;
+    }
+    header.sticky .logo {
+      color: white;
     }
     header .logo {
       position: relative;
@@ -54,6 +70,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-top: 17px;
     }
 
     header ul li {
@@ -70,47 +87,52 @@
       transition: 0.6s;
     }
     .banner {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        z-index: 0;
-        background: url('/images/baru.jpg');
-        background-size: cover;
-
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      z-index: 0;
+      background: url("/images/baru.jpg");
+      background-size: cover;
+    }
+    .banner-single{
+      background-color: #0E003B ;
+      position: relative;
+      width: 100%;
+      height: 11vh;
+      z-index: 0;
     }
   </style>
+  
+  
 </head>
 <body><header>
-    <a href="/" class="logo">Logo</a>
-    
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Services</a></li>
-        <li><a href="/">Portofolio</a></li>
-        <li><a href="/">Team</a></li>
-        <li><a href="/">Contact</a></li>
-    </ul>
-    
-    <p>Welcome Home</p>
-    
-    
-    
-    
-    <hr>
-</header><div id="content">
+  <a href="/" class="logo">Logo</a>
+
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/">About</a></li>
+    <li><a href="/">Services</a></li>
+    <li><a href="/">Portofolio</a></li>
+    <li><a href="/">Team</a></li>
+    <li><a href="/">Contact</a></li>
+  </ul>
+  
+</header>
+<div id="content">
+
 
 <section class="banner"></section>
+
 <h1>Aang Morningstar</h1>
 
 <h2>Daftar Konten</h2>
 <ul>
-    
+  
   
 
   <li>
     <a href="https://ahmadmuzaki.github.io/blog/indonesia-copy/">Indonesia</a>
-    <p>Indonesia Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem illo, vero odit officia omnis modi quae dolor nam assumenda perspiciatis unde soluta necessitatibus itaque ipsam enim cupiditate dignissimos eveniet.</p> 
+    <p>Indonesia Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem illo, vero odit officia omnis modi quae dolor nam assumenda perspiciatis unde soluta necessitatibus itaque ipsam enim cupiditate dignissimos eveniet.</p>
     
     
     <span>18-10-2020</span>
@@ -119,7 +141,7 @@
 
   <li>
     <a href="https://ahmadmuzaki.github.io/blog/indonesia/">Indonesia</a>
-    <p>Indonesia Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem illo, vero odit officia omnis modi quae dolor nam assumenda perspiciatis unde soluta necessitatibus itaque ipsam enim cupiditate dignissimos eveniet.</p> 
+    <p>Indonesia Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum voluptatem illo, vero odit officia omnis modi quae dolor nam assumenda perspiciatis unde soluta necessitatibus itaque ipsam enim cupiditate dignissimos eveniet.</p>
     
     
     <span>18-10-2020</span>
@@ -128,7 +150,7 @@
 
   <li>
     <a href="https://ahmadmuzaki.github.io/blog/belajar-hugo-copy/">Belajar Hugo</a>
-    <p>Blog belajar tebaik contohnya</p> 
+    <p>Blog belajar tebaik contohnya</p>
     
     
     <span>18-10-2020</span>
@@ -137,7 +159,7 @@
 
   <li>
     <a href="https://ahmadmuzaki.github.io/blog/belajar-hugo/">Belajar Hugo</a>
-    <p>Blog belajar tebaik contohnya</p> 
+    <p>Blog belajar tebaik contohnya</p>
     
     
     <span>18-10-2020</span>
@@ -147,13 +169,13 @@
 
 <h2>Daftar Aang</h2>
 <ul>
-    
+  
   
 </ul>
 
 <h2>Semua File MD</h2>
 <ul>
-    
+  
   
 
   <li>
@@ -193,6 +215,12 @@
   
 </ul>
 
+<script>
+  window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  })
+</script>
 
 
         </div><hr>
