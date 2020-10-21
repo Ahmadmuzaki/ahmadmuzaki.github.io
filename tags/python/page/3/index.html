@@ -10,23 +10,8 @@
 
   
   <meta name="description" content="Belajar Hugo" />
-  
-
-  
+   
   <style>
-    .column {
-      width: 33.33%;
-       
-      float: right;
-      background-color: #264653;
-      color: whitesmoke;
-      text-align: center;
-    }
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
     header {
       position: fixed;
       top: 0;
@@ -38,7 +23,8 @@
       transition: 0.6s;
       padding: 5px 50px;
       z-index: 1000;
-      background: #0E003B;
+      background: #0e003b;
+      box-shadow: 0 2px 5px -1px rgba(0,0,0,0.25);
     }
     header .logo {
       position: relative;
@@ -71,16 +57,37 @@
       font-weight: 500;
       transition: 0.6s;
     }
-    .banner-single{
-      background-color: #0E003B ;
+    .banner-single {
+      background-color: #0e003b;
       position: relative;
       width: 100%;
-      height: 11vh;
+      height: 10vh;
       z-index: 0;
     }
   </style>
   
-  
+  <style>
+    .column {
+      width: 33.33%;
+       
+      float: right;
+      background-color: #264653;
+      color: whitesmoke;
+      text-align: center;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .inden{
+    margin: 20px;
+    
+    }
+    .inden li{
+      list-style: none;
+    }
+  </style>
 </head>
 <body><header>
   <a href="/" class="logo">Logo</a>
